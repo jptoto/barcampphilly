@@ -1,0 +1,275 @@
+
+body {
+	width:auto;
+	margin:0 auto;
+	margin-top:0px;
+	padding-top: 0px;
+	background-color: #d7e1f8; 
+	font-size: 12px;
+	font-family: Verdana, sans-serif;
+	background: url(images/city_background2.png) repeat-x;
+}
+
+body form {
+	margin: 0px;
+}
+
+body a {
+	color : #003d79;
+}
+
+body a:hover {
+	color : #2e74a6;
+}
+
+body img{
+	border: 0;
+}
+
+
+/* ----- HEADER ----- */
+#header {
+	width:auto;
+
+}
+
+/* FAUX LAYOUT WRAPPER */
+#wrapper{
+
+	overflow:auto; /* IE Fix. Suck it, MS. */
+}
+
+/* -----( NAVIGATION )------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#navigation{
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#nav {
+	font-family: Verdana, sans-serif;
+	height: 52px;
+	width:auto;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	background: url(images/nav_bg.png) repeat-x bottom left;
+}
+
+#nav li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: #ffffff;
+	}
+	
+#nav a:hover, #nav a.active {
+	color: #ffffff;
+	background-color: #1568a6;
+}
+
+/*--( NAVIGATION ELEMENTS )------------------------------------------------------------------------------------------------------------------------------------------------*/
+.left_nav_spacer {
+	background-color: #d7e1f8;
+}
+
+.page-item-2 a {
+	float: left;
+	padding: 17px 15px 17px 15px;
+	text-decoration: none;	
+	color: #ffffff;
+	border-right: 1px solid #484646;
+}
+
+.page-item-3 a {
+	float: left;
+	padding: 17px 15px 17px 15px;
+	text-decoration: none;	
+	color: #ffffff;
+	border-right: 1px solid #484646;
+}
+
+.page-item-16 a {
+	float: left;
+	padding: 17px 15px 17px 15px;
+	text-decoration: none;	
+	color: #ffffff;
+	border-right: 1px solid #484646;
+}
+
+.page-item-5 a {
+	float: left;
+	padding: 17px 15px 17px 15px;
+	text-decoration: none;	
+	color: #ffffff;
+	border-right: 1px solid #484646;
+}
+
+.right_nav_search form {
+	float: left;
+	padding: 15px 8px 15px 15px;
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+#search_form_div {
+	position: absolute; top: 10px; right: 115px; 
+} 
+
+#date_tag {
+	position: absolute; top: 10px; left: 20px; 
+}
+
+#bc_logo {
+	position: absolute; top: 50px; left: 200px;
+}
+
+/* -----( RIGHT SUB NAVIGATION )----------------------------------------------------------------------------------------------------------------------------------------------- */
+#right_navigation {
+	width:230px;
+	min-height:250px; /* for modern browsers */
+	height:auto !important; /* for modern browsers */
+	height:250px; /* for IE5.x and IE6 */
+	background: #ffffff;
+	float:right; 
+	margin: 30px 10px 0px 0px;
+	border: 1px solid #a3a3aa;
+	text-align: center;
+}
+
+#right_navigation img {
+	vertical-align: middle;
+	margin: 0px 5px 0px 0px;
+}
+
+#left_column { 
+	width:700px;
+	min-height:300px; /* for modern browsers */
+	height:auto !important; /* for modern browsers */
+	height:300px; /* for IE5.x and IE6 */
+	margin: 160px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	display: block;
+}
+
+#left_column img {
+	vertical-align: middle;
+	margin: 20px 5px 0px 20px;
+}
+
+
+/* ----- MAIN CONTENT ----- */
+#content { 
+	width:700px;
+	min-height:350px; /* for modern browsers */
+	height:auto !important; /* for modern browsers */
+	height:350px; /* for IE5.x and IE6 */
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 20px;
+	display: block;
+	float:left;
+}
+
+#content p {
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+	margin: 0px 10px 10px 5px;
+}
+
+#content h1 {
+	padding: 0px;
+	margin: 5px 0px 0px 2px;
+	font-size : 18px;
+	font-family : Arial, Tahoma,Verdana;
+	color: #003d79;;
+}
+
+#content h2 a {
+	padding: 0px;
+	margin: 15px 0px 0x 2px;
+	font-size : 24px;
+	font-family : Arial, Tahoma,Verdana;
+	color: #003d79;;
+	text-decoration: none;
+}
+
+#content h3 {
+	padding: 0px;
+	margin: 2px 0px 2px 2px;
+	font-size : 12px;
+	font-family : Arial, Tahoma,Verdana;
+	color: #2e74a6;;
+}
+
+#content ul {
+	font-size: 11px;
+	font-family: verdana, arial, sans-serif;
+	
+}
+
+
+#right_sidebar {
+	width:230px;
+	min-height:250px; /* for modern browsers */
+	height:auto !important; /* for modern browsers */
+	height:250px; /* for IE5.x and IE6 */
+	background: #ffffff;
+	float:right; 
+	margin: 0px 10px 0px 0px;
+	font-size:12px;
+}
+
+#right_sidebar h3 {
+	font-size:14px;
+	margin:20px 0 0px 0;
+}
+
+#right_sidebar ul {
+	list-style: none;
+	font-size: 12px;
+	font-family: Verdana, sans-serif;
+	text-transform: none;
+	margin-bottom: 2em;
+	margin-left: 0px;
+	margin-top: 10px;
+	padding: 0px 0px 0px 0px;
+}
+
+#right_sidebar ul ul {
+	margin:5px 0 0 10px;
+}
+
+#right_sidebar ul ul ul {
+	margin:5px 0 0 10px;
+}
+
+#right_sidebar ul li {
+	padding:0 0 5px 0;
+}
+
+
+/* ----- FOOTER ----- */
+#footer { 
+	width:auto;
+	height:105px;
+	padding: 45px 0px 0px 0px;
+	background: #c8d9e8 url(images/footer_bg.png) repeat-x;
+	clear: both;
+}
+
+#footer_content {
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-decoration: none;
+	width:auto;
+	text-align:center;
+}
+
+
