@@ -16,7 +16,7 @@
 <div id="header">
 	<div id="navigation">
 		<ul id="nav">
-			<li class="page_item left_nav_spacer"><img src="images/left_nav_spacer1.png" /></li>
+			<li class="page_item left_nav_spacer"><img src="/images/left_nav_spacer1.png" /></li>
 			
 			<?php wp_list_pages('title_li=' ); ?>
 			
@@ -24,18 +24,18 @@
 				<form method="get" id="searchform" action="http://barcamp.local/">
 					<input type="text" value="" name="s" id="s" />
 				</form>
-				<img src="images/magnifier.png" style="padding-top: 20px;" />
+				<img src="/images/magnifier.png" style="padding-top: 20px;" />
 			</li>
 		</ul>
 	</div>
 
 </div>
 
-	<img id="date_tag" src="images/date_tag1.png" />
+	<img id="date_tag" src="/images/date_tag1.png" />
 	
 	<!--right column-->
 	<div id="right_navigation">
-		<img src="images/uartslogo.jpg" style="margin: 3px 0px 0px 2px;" />
+		<img src="/images/uartslogo.jpg" style="margin: 3px 0px 0px 2px;" />
 		
 	</div>
 	<!--right column-->
@@ -43,9 +43,9 @@
 	
 	<!--left_column-->
 	<div id="left_column">
-		<a href="<?php echo get_option('home'); ?>/"><img id="bc_logo" src="images/bc_logo.png" /></a>
-		<a href="/sponsor"><img src="images/sponsor_logo.png" /></a><br />
-		<img src="images/signup_logo_grey.png" /><br />
+		<a href="<?php echo get_option('home'); ?>/"><img id="bc_logo" src="/images/bc_logo.png" /></a>
+		<a href="/sponsor"><img src="/images/sponsor_logo.png" /></a><br />
+		<img src="/images/signup_logo_grey.png" /><br />
 
 
 	</div>
